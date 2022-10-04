@@ -1,0 +1,33 @@
+@import '~bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+*{
+  font-family: 'PT Mono', sans-serif !important;
+
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F5F4F6;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+nav{
+  .btn-outline-primary{
+    margin-right: 8px;
+  }
+  .icon{
+    display: block;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border-radius: 4px;
+    text-transform: uppercase;
+  }
+}
+
+// Switch
