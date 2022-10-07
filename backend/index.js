@@ -12,7 +12,7 @@ mongoose
 .connect('mongodb+srv://dima:www123@cluster0.x7jyb.mongodb.net/blog?retryWrites=true&w=majority')
 .then(()=>{ 
     console.log('db is ok')
-}).catch((err) => console.log('db dead', err))
+}).catch((err) => console.log('db is dead', err))
 const app = express();
 
 const storage = multer.diskStorage({
@@ -53,3 +53,5 @@ app.listen(4444, err =>{
     }
     console.log('server OK');
 })
+
+

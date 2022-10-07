@@ -7,9 +7,11 @@ import ListItemAvatar from '@mui/material/ListItemAvatar';
 import Avatar from '@mui/material/Avatar';
 import Typography from '@mui/material/Typography';
 import ListSubheader from '@mui/material/ListSubheader';
+
+
 export default function AlignItemsList() {
   return (
-    <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
+    <List sx={{ width: '100%', bgcolor: 'background.paper' }}>
         <ListSubheader component="div" id="nested-list-subheader" sx={{fontSize: 16}}>
           Коментарі
         </ListSubheader>
